@@ -25,24 +25,23 @@ void setup() {
 void loop() {
 
     // -------- DIGITAL MODE --------
+    digitalWrite(redPin, HIGH);
+    delay(500);
+    digitalWrite(redPin, LOW);
 
-    // TODO 7:
-    // Turn ON red (digital HIGH)
+    // -------- ANALOG (PWM) MODE
+    analogWrite(redPin, 255);
+    analogWrite(greenPin, 0);
+    analogWrite(bluePin, 0);
+    delay(500);
 
-    // TODO 8:
-    // Turn OFF red
+    analogWrite(redPin, 0);
+    analogWrite(greenPin, 255);
+    analogWrite(bluePin, 0);
+    delay(500);
 
-    // -------- ANALOG (PWM) MODE --------
-
-    // TODO 9:
-    // Set RED brightness using analogWrite()
-
-    // TODO 10:
-    // Set GREEN brightness using analogWrite()
-
-    // TODO 11:
-    // Set BLUE brightness using analogWrite()
-
-    // TODO 12:
-    // Add delay for visible transition
+    analogWrite(redPin, 0);
+    analogWrite(greenPin, 0);
+    analogWrite(bluePin, 255);
+    delay(500);
 }
