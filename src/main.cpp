@@ -24,12 +24,12 @@ void setup() {
 
 void loop() {
 
-    // -------- DIGITAL MODE --------
+    // DIGITAL MODE
     digitalWrite(redPin, HIGH);
     delay(500);
     digitalWrite(redPin, LOW);
 
-    // -------- ANALOG (PWM) MODE
+    //  ANALOG (PWM) MODE
     analogWrite(redPin, 255);
     analogWrite(greenPin, 0);
     analogWrite(bluePin, 0);
