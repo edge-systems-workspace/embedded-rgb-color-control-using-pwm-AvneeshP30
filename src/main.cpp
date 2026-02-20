@@ -2,8 +2,8 @@
 /**
  * @file main.cpp
  * @brief Embedded RGB LED Control (Digital + PWM)
- * @author YOUR_NAME
- * @date YYYY-MM-DD
+ * @author Avneesh Pandey
+ * @date 20-02-2026
  *
  * @details
  * Controls RGB LED using digital ON/OFF
