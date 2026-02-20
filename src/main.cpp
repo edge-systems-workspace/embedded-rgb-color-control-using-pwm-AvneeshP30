@@ -16,15 +16,10 @@ int bluePin = 11;
 
 
 void setup() {
+    pinMode(red,OUTPUT);
+    pinMode(green,OUTPUT);
+    pinMode(blue,OUTPUT);
 
-    // TODO 4:
-    // Initialize Serial communication (9600 baud)
-
-    // TODO 5:
-    // Configure RGB pins as OUTPUT
-
-    // TODO 6:
-    // Print initialization message
 }
 
 void loop() {
